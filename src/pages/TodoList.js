@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import TaskForm from './TaskForm';
 import TaskList from './TaskList';
-import '../index.css'
+import '../App.css'
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);
